@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lâmpada</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+
+       .lampada{
+
+        position: absolute;
+        top: 20%;
+        left: 46%;
+       }
+
+        
+    
+
+    .botao{
+        position: absolute;
+        top: 25vh;
+        left: 22px;
+    }
+    
+    
+
+
+    </style>
+</head>
+<body>
+    <h1>Acender e apagar a lâmpada</h1>
+    <div class="lampada">
+    <img ID="LampadaDesligada"src="./img/desligado.jpg">
+    <div class="botao">
+    <button onclick="document.getElementById('LampadaDesligada').src='./img/ligado.jpg'">Acender</button>    
+    <button onclick="document.getElementById('LampadaDesligada').src='./img/desligado.jpg'">Apagar</button>
+    </div>
+</div>
+</body>
+
+</html>
